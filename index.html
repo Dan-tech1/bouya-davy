@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouya Davy | Développeur Web | Portfolio Personnel</title>
+    <meta name="description" content="Portfolio de Bouya Davy, développeur web et étudiant en informatique. Découvrez ses compétences, projets, expériences et contactez-le.">
+    <meta name="author" content="Bouya Davy">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portfolio de Bouya Davy | Développeur Web">
+    <meta property="og:description" content="Bienvenue sur mon portfolio. Explorez mes compétences, projets et parcours.">
+    <meta property="og:image" content="https://ton-site.com/assets/images/personal.jpg">
+    <meta property="og:url" content="https://ton-site.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bouya Davy | Développeur Web">
+    <meta name="twitter:description" content="Mon portfolio personnel de développeur web. Découvrez mes projets et compétences.">
+    <meta name="twitter:image" content="https://ton-site.com/assets/images/personal.jpg">
+
+    <link rel="icon" href="./assets/images/personal.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="./style.css/css/style.css">
+    <link rel="stylesheet" href="./style.css/css/animate.css">
+    <link rel="manifest" href="manifest.json">
+    
+
+</head>
+<body>
+    <header>
+    <a href="/" class="logo"><i class="fa-solid fa-code"></i> BOUYA Davy</a>
+      <nav class="nav-toggle">
+        <ul>
+            <li><a class="active" href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#education">Éducation</a></li>
+            <li><a href="#work">Projets</a></li>
+            <li><a href="#experience">Expérience</a></li>
+        </ul>
+       </nav>
+         <div id="menu" class="fas fa-bars"></div>
+    </header>
+
+    <main>
+        <!-- Section Accueil --> 
+        <section class="home reveal" id="home">
+            <div class="content">
+                <h1 class="typing-text">Bonjour,<br/> Je suis <span>Buoya Davy</span></h1>
+                <p>Je suis passionné par <span class="typing-text">le développement web</span></p> <br>
+                <a href="#about" class="btn"><span style="color: aliceblue;" class="span">À propos de moi</span>
+                    <i class="fas fa-arrow-circle-down"></i>
+                </a>
+                <div class="socials">
+                    <ul class="social-icons">
+                        <li><a class="facebook" aria-label="Facebook" href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="instagram" aria-label="Instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
+                        <li><a class="linkedin" aria-label="LinkedIn" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a class="twitter" aria-label="Twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="github" aria-label="GitHub" href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a class="youtube" aria-label="YouTube" href="https://www.youtube.com/channel/UCKTuDisnRa-ul59Slu4EY4A" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img draggable="false" class="tilt" src="style.css/images/bouya.jpg" alt="Profil Bouya Davy">
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section class="about reveal" id="about">
+            <h2 class="heading"><i class="fas fa-user-alt"></i> À propos <span>de moi</span></h2><br>
+            <div class="row">
+                <div class="image">
+                    <img draggable="false" class="tilt" src="style.css/images/bouya.jpg" alt="Profil Bouya Davy">
+                </div>
+                <div class="content">
+                    <h3>Je suis Bouya Davy</h3>
+                    <span class="tag">Développeur Web</span>
+                    <p>Je suis étudiant en informatique, passionné par l'amélioration de mes compétences en programmation et la création de sites et d'applications web. J'aime apprendre, collaborer et relever des défis techniques.</p>
+                    <div class="box-container">
+                        <div class="box">
+                            <p><span> Âge : </span> 24</p>
+                            <p><span> Téléphone : </span> +241 06033560</p>
+                        </div>
+                        <div class="box">
+                            <p><span> Email : </span> mandadavy241@gmail.com</p>
+                            <p><span> Localisation : </span> Casablanca, Maroc</p>
+                        </div>
+                    </div>
+                    <div class="resumebtn">
+                        <a href="cv/CV-BOUYA-DAVY.pdf.pdf" target="_blank" class="btn"><span>Voir mon CV</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section class="skills reveal" id="skills">
+            <h2 class="heading"><i class="fas fa-laptop-code"></i> Compétences & <span>Technologies</span></h2>
+            <div class="container">
+                <div class="row" id="skillsContainer">
+                    <!-- Compétences en flexbox, 4 par ligne -->
+                    <div class="skills-icons-row" id="skillsIconsRow">
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/HTML5.jpg" alt="html image">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/CSS.png" alt="css image">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/javaScript.png" alt="javaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/language-C.jpg" alt="language C">
+                            <span>Language C</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/GitHub.jpg" alt="github">
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/canvas.png" alt="canca">
+                            <span>Canva</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/word.png" alt="word Michrosoft">
+                            <span>Word Michrosoft</span>
+                        </div>
+                        <div class="skills-icon-item">
+                            <img src="style.css/images/powerpoint.jpg" alt="PowerPoint">
+                            <span>PowerPoint</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Éducation -->
+        <section class="education reveal" id="education">
+            <h2 class="heading"><i class="fas fa-graduation-cap"></i> Mon <span>Éducation</span></h2>
+            <p class="qoute">L'éducation n'est pas l'apprentissage des faits, mais l'entraînement de l'esprit à penser.</p>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="style.css/images/emsi.jpg" alt="école marocaine des sciences de l'ingénieur">
+                    </div>
+                    <div class="content">
+                        <h3>Ingenieur en informatique et réseaux</h3>
+                        <p>actuellement en 3 ème année cycle intéguer en informatique et réseaux</p>
+                        <h4>2018-2023 |Pas encore terminé</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="style.css/images/alexandresambat.jpg" alt="Lycée Alexandre Sambat de Makokou">
+                    </div>
+                    <div class="content">
+                        <h3>Lycée Alexandre SAMBZAT de Makokou</h3>
+                        <p> apprentissage des scinces de la nature, sc physique et les mathématiques</p>
+                        <h4>2020-2024 | Terminé</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="style.css/images/makokou.jpg" alt="Collège Alexandre Sambat de Makokou">
+                    </div>
+                    <div class="content">
+                        <h3>Collège Alexandre Sambat de Makokou</h3>
+                        <p>apprentissage des scinces de la nature, sc physique et les mathématiques et enseignement générérale</p>
+                        <h4>2015-2020 | Terminé</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section class="work reveal" id="work">
+            <h2 class="heading"><i class="fas fa-laptop-code"></i> Projets <span>réalisés</span></h2>
+            <div class="box-container">
+                <div class="box tilt">
+                    <img draggable="false" src="style.css/images/stream241.jpg" alt="Portfolio">
+                    <div class="content">
+                        <div class="tag">
+                            <h3>241 stream</h3>
+                        </div>
+                        <div class="desc">
+                            <p>Site vitrine personnel de streaming des séries et films en utilisant des vidéos intégrer dans Js.</p>
+                            <div class="btns">                              
+                                <a href="https://dan-tech1.github.io/241stream/index.html" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
+                                <a href="https://github.com/Dan-tech1/241stream.git" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box tilt">
+                    <img draggable="false" src="style.css/images/saveurs.png" alt="Portfolio">
+                    <div class="content">
+                        <div class="tag">
+                            <h3>Les Les-Saveurs-croisees</h3>
+                        </div>
+                        <div class="desc">
+                            <p>Site vitrine d'un réstaurant africaine précisement Gabono-Marocain</p>
+                            <div class="btns">
+                                <a href="https://dan-tech1.github.io/Les-Saveurs-croisees/" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
+                                <a href="https://github.com/Dan-tech1/Les-Saveurs-croisees.git" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box tilt">
+                    <img draggable="false" src="style.css/images/portfolio.png" alt="Portfolio">
+                    <div class="content">
+                        <div class="tag">
+                            <h3>Site Portfolio</h3>
+                        </div>
+                        <div class="desc">
+                            <p>Site personnel pour présenter mon parcours et mes réalisations.</p>
+                            <div class="btns">
+                                <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
+                                <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box tilt">
+                    <img draggable="false" src="style.css/images/calendrier.png" alt="Calendrier interactif">
+                    <div class="content">
+                        <div class="tag">
+                            <h3>Calendrier interactif</h3>
+                        </div>
+                        <div class="desc">
+                            <p>Calendrier interactif qui enregistre les évènement.</p>
+                            <div class="btns">
+                                <a href="https://dan-tech1.github.io/Calendrier-interactiff/" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
+                                <a href="https://github.com/Dan-tech1/Calendrier-interactiff.git" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box tilt">
+                    <img draggable="false" src="./assets/images/projects/portfolio.png" alt="Portfolio">
+                    <div class="content">
+                        <div class="tag">
+                            <h3>Site Portfolio</h3>
+                        </div>
+                        <div class="desc">
+                            <p>Site personnel pour présenter mon parcours et mes réalisations.</p>
+                            <div class="btns">
+                                <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
+                                <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ajoute tes autres projets ici, traduits en français -->
+            </div>
+        </section>
+
+        <!-- Section Expérience -->
+        <section class="experience reveal" id="experience">
+            <h2 class="heading"><i class="fas fa-briefcase"></i> Parcours professionnel</h2>
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>Conception Web</h2>
+                        </div>
+                        <div class="desc">
+                            <p>La conception web regroupe de nombreuses compétences et disciplines pour la création et la maintenance de sites internet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>Développement Web</h2>
+                        </div>
+                        <div class="desc">
+                            <p>Le développement web consiste à créer des sites et applications pour Internet ou intranet, du site vitrine aux applications complexes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>programmation</h2>
+                        </div>
+                        <div class="desc">
+                            <p>Discipline informatique consistant à écrire du code source dans un langage donné (comme le C) afin de créer des logiciels, <br>
+                               résoudre des problèmes ou automatiser des tâches.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>Réseaux informatiques</h2>
+                        </div>
+                        <div class="desc">
+                            <p>Ensemble d'ordinateurs, de serveurs et d'équipements interconnectés qui permettent l'échange de données. <br>
+                               Cela comprend l'adressage IP, les protocoles de communication, et la gestion des infrastructures réseau.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>Portfolio de Davy Bouya</h3>
+                <p>Merci de visiter mon portfolio. Connectez-vous avec moi sur les réseaux sociaux.<br/>Continuez à progresser 🚀 !</p>
+            </div>
+            <div class="box">
+                <h3>Liens rapides</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> Accueil</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> À propos</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Compétences</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> Éducation</a>
+                <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projets</a>
+                <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Expérience</a>
+            </div>
+            <div class="box">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +241 06033560</p>
+                <p><i class="fas fa-envelope"></i> mandadavy241@gmail.com</p>
+                <p><i class="fas fa-map-marked-alt"></i> Libreville, Gabon</p>
+                <div class="share">
+                    <a class="facebook" aria-label="Facebook" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a class="instagram" aria-label="Instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="linkedin" aria-label="LinkedIn" href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="twitter" aria-label="Twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="github" aria-label="GitHub" href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="youtube" aria-label="YouTube" href="https://www.youtube.com/channel/UCKTuDisnRa-ul59Slu4EY4A" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h1 class="credit">Design & Développement <i class="fa fa-heart pulse"></i> par <a href="#">Bouya Davy</a></h1>
+    </footer>
+    <script src="style.css/js/script.js"></script>
+    <script src="style.css/js/animations.js"></script>
+</body>
+</html>
