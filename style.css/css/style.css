@@ -288,10 +288,12 @@ section:nth-of-type(even) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
 .box-container img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 
