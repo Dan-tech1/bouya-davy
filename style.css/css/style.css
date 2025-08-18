@@ -545,3 +545,14 @@ footer .box:hover {
   box-shadow: 0 8px 20px rgba(0, 170, 255, 0.859);
   border-radius: 50px;
 }
+
+/* publicité */
+.ad-container {
+    width: 100%;
+    max-width: 300px;  /* largeur maximale desktop/tablette */
+    margin: 0 auto;    /* centrer l’ad */
+}
+.ad-container iframe {
+    width: 100% !important;
+    height: auto !important;
+}
