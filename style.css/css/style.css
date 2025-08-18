@@ -540,7 +540,7 @@ footer .box {
 
 .box:hover,
 .skills-icon-item:hover,
-footer .box:hover {
+footer .box:hover { 
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(0, 170, 255, 0.859);
   border-radius: 50px;
